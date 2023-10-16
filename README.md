@@ -1,7 +1,7 @@
 **Objective:**
 ===============
 
-What is Magic?
+What is Magic?  
 "Magic is a collectible trading card game of fun-filled, strategic games to play with friends old and new. Welcoming worldbuilders, narrative lovers, and gameplay enthusiasts alike, Magic has something for everyone and countless ways to play. Whether you're sitting at the kitchen table, playing online, or battling in a high-stakes competition, there's a place for you in the world of Magic: The Gathering." - [Intro](https://magic.wizards.com/en/intro)
 
 
@@ -62,7 +62,7 @@ If you wanna see all make options open the file or type `make help` in your term
 
  ```
 
-Os dados das tasks abaixo serão salvos no diretorio `tlz`.
+The output result of the tasks bellow will be stored in `tlz`.
 
  * Running to collect cards api:
     ```
@@ -107,11 +107,7 @@ args
 .
 ├── configs
 │   ├── raw
-│   │   ├── cards.json
-│   │   └── sets.json
 │   └── ref
-│       ├── cards.json
-│       └── sets.json
 ├── data
 │   ├── raw
 │   │   ├── cards
