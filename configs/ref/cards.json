@@ -1,0 +1,16 @@
+{
+    "task_name": "cards_ref",
+    "source_table":
+        {
+            "table_name": "cards",
+            "path": "data/raw/cards/",
+            "format": "parquet"
+        },
+    "sink_table":
+        {
+            "table_name": "cards",
+            "path": "data/ref/cards/",
+            "format": "parquet",
+            "mode": "overwrite"
+        }
+}

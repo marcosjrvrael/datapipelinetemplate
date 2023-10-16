@@ -1,0 +1,16 @@
+{
+    "task_name": "sets_ref",
+    "source_table":
+        {
+            "table_name": "sets",
+            "path": "data/raw/sets/",
+            "format": "parquet"
+        },
+    "sink_table":
+        {
+            "table_name": "sets",
+            "path": "data/ref/sets/",
+            "format": "parquet",
+            "mode": "overwrite"
+        }
+}

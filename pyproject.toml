@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "apimagic"
+version = "0.1.0"
+description = ""
+authors = ["moj"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyspark = "^3.3.3"
+pydantic = "^1.8.2"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.6.0"
+flake8 = "^6.1.0"
+pydocstyle = "^6.3.0"
+types-requests = "^2.31.0.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

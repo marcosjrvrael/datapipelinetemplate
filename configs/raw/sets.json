@@ -1,0 +1,16 @@
+{
+    "task_name": "cards_raw",
+    "source_table":
+        {
+            "table_name": "sets",
+            "path": "data/tlz/sets/",
+            "format": "json"
+        },
+    "sink_table":
+        {
+            "table_name": "sets",
+            "path": "data/raw/sets/",
+            "format": "parquet",
+            "mode": "overwrite"
+        }
+}
