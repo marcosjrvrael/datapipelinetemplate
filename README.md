@@ -45,6 +45,8 @@ If you want, you can just do the build
 make docker-build
 ```
 
+If you wanna see all make options open the file or type `make help` in your terminal.
+
 **Running the application**
 =============
 
