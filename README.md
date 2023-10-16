@@ -102,6 +102,14 @@ args
     python runner.py --spark_task sets_ref --config_path configs/ref/sets.json
     ```
 
+**Code style validation**
+The code follows good readeability practices, and get validation from the libraries bellow calling make functions.
+- `make stylecheck` runs Flake8: Validate if our code was correctly wrote following PEP-8 rules.
+- `make typecheck` runs Mypy: Validate if our code was correctly wrote following PEP-484 rules, that ask you to put Typehints in your methods.
+- `make doccheck` Pydocstyle(Google Style): Validate if our code was correctly wrote following PEP-257 rules, that ask you to put Docstrings in your methods.
+
+If you wanna run all tests use `static-tests`
+
 **Folder structure**
 ```
 .
